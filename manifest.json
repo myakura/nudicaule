@@ -1,0 +1,17 @@
+{
+	"manifest_version": 3,
+	"name": "Nudicaule",
+	"description": "Block polyfill.io",
+	"version": "1.0",
+	"permissions": ["declarativeNetRequest"],
+	"declarative_net_request": {
+		"rule_resources": [
+			{
+				"id": "block-polyfill-io-scripts",
+				"enabled": true,
+				"path": "ruleset.json"
+			}
+		]
+	},
+	"host_permissions": ["<all_urls>"]
+}
